@@ -1,15 +1,18 @@
 # Node JS with Arduino Lilypad #
 In this tutorial, we'll be using the [Johnny-Five Javascript Robotics Programming Framework](https://github.com/rwaldron/johnny-five) and Ardunio Lilypad.  You can use other hardware.
 
+<img src="https://www.arduino.cc/en/uploads/Main/A000011_featured.jpg">
+[Schematics](https://www.arduino.cc/en/uploads/Main/LilyPad_schematic_v18.pdf)
+
 ##First time setup###
 
-###Hardware###
-Arduino Lilypad
-Conductive threads
-LED lights
+###Basic Hardware###
+- Arduino Lilypad ATmega168
+- Conductive threads
+- LED lights
 
 ###Set up the Arduino Lilypad###
-Using a needle conductive thread, sew through the LED lights with their corresponding pin as noted on the Lilypad.  Keep track of where the pins are located for future reference.
+Using a needle conductive thread, sew through the LED lights with their corresponding pin as noted on the microcontroller.  Keep track of where the pins are located for future reference.
 
 Make sure that the threads don't touch each other.
 
