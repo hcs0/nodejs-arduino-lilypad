@@ -43,3 +43,5 @@ You can then try running one of the code examples located within node-/ardx/code
 ```
 node code/CIRC01-code-led-b-pulse.js
 ```
+
+And that is how you can get started! Have a look at the other folders for further examples.
