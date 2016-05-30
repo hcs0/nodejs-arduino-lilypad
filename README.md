@@ -1,4 +1,4 @@
-# Node JS with Arduino Lilypad #
+# Node JS with Arduino Lilypad (Work in progress!!) #
 In this tutorial, we'll be using the [Johnny-Five Javascript Robotics Programming Framework](https://github.com/rwaldron/johnny-five) and Ardunio Lilypad.  You can use other hardware.
 
 <img src="https://www.arduino.cc/en/uploads/Main/A000011_featured.jpg">
