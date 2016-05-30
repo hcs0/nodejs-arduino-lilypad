@@ -29,7 +29,8 @@ Connect the Lilypad Arduino via USB.  The settings that I have within the IDE ar
 - **Board:** Lilypad Arduino USB 
 - **Port:** The port should reference a USB.  If not, make sure that it's being recognized.
 - **Programmer:** AVR ISP
-The settings may differ for you. Also, the Arduino IDE recognized another board ('Lilypad Arduino') which prompted a [avrdude stk500_getsync() not in sync resp=0x30 error](http://www.instructables.com/id/A-solution-to-avrdude-stk500getsync-not-in-syn/)
+
+The Programmer settings may differ for you. The Arduino IDE recognized another board ('Lilypad Arduino') as a default which prompted a [avrdude stk500_getsync() not in sync resp=0x30 error](http://www.instructables.com/id/A-solution-to-avrdude-stk500getsync-not-in-syn/) message.
 
 ###Run your first module###
 Make sure to install Johnny-Five
