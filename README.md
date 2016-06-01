@@ -11,6 +11,7 @@ In this tutorial, we'll be using the [Johnny-Five Javascript Robotics Programmin
 - Arduino Lilypad ATmega168
 - Conductive threads
 - LED lights
+- USB cable
 
 ###Set up the Arduino Lilypad###
 Using a needle conductive thread, sew through the LED lights with their corresponding pin as noted on the microcontroller.  Keep track of where the pins are located for future reference.
@@ -46,3 +47,6 @@ node code/CIRC01-code-led-b-pulse.js
 ```
 
 And that is how you can get started! Have a look at the other folders for further examples.
+
+###Where to after this?###
+I am looking into using another Arduino board with a wifi/GSM shield and implementing more interactivity.
