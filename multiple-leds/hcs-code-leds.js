@@ -1,9 +1,13 @@
+// this is based on the node-ardx library
+
 var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
-  var ledPins = [2,3,9,10]; // recognize the led Pins
+  var ledPins = [2,3,9,10]; // add the led Pins to recognize them.  I have two
   var leds = new five.Leds(ledPins);
+
+  // the function below is from the node-ardx Library
 
   function oneAfterAnother() {
     var delay = 1;
@@ -20,12 +24,9 @@ board.on("ready", function() {
         leds[this.counter].off();
         this.counter = (this.counter + 1) % leds.length;
       })
-      delay += 500;
+      delay += 800;
     }
   }
-
-  // leds.on();
-  // board.wait(1000, leds.off.bind(leds));
 
   oneAfterAnother();
   board.loop(4500, oneAfterAnother);
